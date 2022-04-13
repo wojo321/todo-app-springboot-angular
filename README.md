@@ -1,1 +1,1 @@
-# todo-app-springboot-angular
+# Angular project for todo-app-springboot-angular
