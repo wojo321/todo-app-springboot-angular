@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavbarComponent } from './side-navbar/side-navbar.component';
-import { AllTasksViewModule } from './all-tasks-view/all-tasks-view.module';
+import { MainViewModule } from './main-panel/main-view.module';
 import { ToggleCollapseDropdownDirective } from './shared/toggle-collapse-dropdown.directive';
 
 @NgModule({
@@ -18,7 +18,7 @@ import { ToggleCollapseDropdownDirective } from './shared/toggle-collapse-dropdo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AllTasksViewModule
+    MainViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
