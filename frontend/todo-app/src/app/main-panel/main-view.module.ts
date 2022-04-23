@@ -5,6 +5,7 @@ import { TasksComponent } from "./tasks/tasks.component";
 import { NewIdeasComponent } from './new-ideas/new-ideas.component';
 import { MainViewRoutingModule } from "./main-view-routing.module";
 import { NewIdeaComponent } from './new-ideas/new-idea/new-idea.component';
+import { SideNavbarComponent } from "../side-navbar/side-navbar.component";
 
 @NgModule({
     declarations: [
@@ -12,8 +13,11 @@ import { NewIdeaComponent } from './new-ideas/new-idea/new-idea.component';
         TasksComponent,
         TaskComponent,
         NewIdeasComponent,
-        NewIdeaComponent
+        NewIdeaComponent,
+        SideNavbarComponent,
     ],
-    imports: [MainViewRoutingModule]
+    imports: [
+        MainViewRoutingModule
+    ]
 })
 export class MainViewModule { }
