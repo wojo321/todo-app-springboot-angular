@@ -16,3 +16,6 @@ h1 {
 input {
   width: 200px;
 }
+.task-list {
+  padding-top: 20px;
+}

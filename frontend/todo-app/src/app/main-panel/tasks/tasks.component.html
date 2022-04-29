@@ -24,5 +24,12 @@
         </form>
       </div>
     </div>
+    <div class="row task-list">
+      <ul class="list-group">
+        <li class="list-group-item" *ngFor="let task of tasks">
+          <app-task [task]="task"></app-task>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
