@@ -1,0 +1,31 @@
+.outside {
+  position: relative;
+}
+.align-content {
+  padding-top: 2.5px;
+  padding-left: 2px;
+}
+.row {
+  margin-left: 2px;
+}
+input {
+  border: 1px solid red;
+  color: red;
+}
+.trash-icon {
+  color: red;
+}
+.trash {
+  float: right;
+}
+.category {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 0 50px;
+  padding-top: 2.5px;
+}
+.inside {
+  position: absolute;
+  right: 0;
+}
